@@ -2,7 +2,7 @@
 
 PSQL="psql -X --username=freecodecamp --dbname=periodic_table --tuples-only -c"
 
-ELEMENT(){
+CHOOSE_ELEMENT_INFO(){
 
   if [[ ! $1 ]]
   then
@@ -38,4 +38,4 @@ ELEMENT(){
   fi
 }
 
-ELEMENT $1
+CHOOSE_ELEMENT_INFO $1
